@@ -182,7 +182,8 @@ public class Hammer
                 this.serverInfo,
                 this.mediaDeviceChooser,
                 this.nickname+"_"+i,
-                (hammerStats != null));
+                true);
+                //(hammerStats != null));
         }
         logger.info(String.format("Hammer created : %d fake users were created"
             + " with a base nickname %s", numberOfUser, nickname));
